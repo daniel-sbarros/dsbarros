@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #030504;
+    --text-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.text-bg-dark {
+    background-color: var(--background-color) !important;
+}
+
+img {
+    max-width: auto !important;
+    height: 70vh !important;
+}
